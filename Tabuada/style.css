@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+body {
+    background-color: #f4f4f4;
+    font-family:'Bruno Ace SC', cursive;
+}
+  
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+  
+h1 {
+    color: #555;
+}
+  
+input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+  
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+  
+button:hover {
+    background-color: #3e8e41;
+}
+  
+.table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+.table th {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+  
+.table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+  
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
