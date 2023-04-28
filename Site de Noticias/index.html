@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Tudo sobre Tecnologia</title>
+    <meta name="YD Tech" content="YD Technology">
+    <meta name="description" content="Portal para ficar por dentro de tudo oque há de novo no mundo da tecnologia.">
+    <meta http-equiv="content-language" content="pt-br">
+    <meta name="keywords" content="python, web, css, html, java, javascript, tecnologia, vaga, emprego, curso, programação, desenvolvimento, inovação">
+</head>
+
+<body>
+    <div class="container">
+        <img src="./img/logoyd.gif">
+        <header>
+            <nav>
+                <span class="cat" onclick="buscar('tecnologia+inovação+informação')">Tecnologia</span>
+                <span class="cat" onclick="buscar('inteligência+artificial')">AI</span>
+                <span class="cat" onclick="buscar('programação+tecnologia+informação')">Programacão</span>
+                <span class="cat" onclick="buscar('cursos+tecnologia+informação')">Cursos</span>
+                <span class="cat" onclick="buscar('emprego+tecnologia+informação')">Empregos</span>
+            </nav>
+            <div class="procurar">
+                <input type="text" placeholder="Procure aqui" id="procurar">
+                <button onclick="buscarTema()">Buscar</button>
+            </div>
+        </header>
+
+        <div class="container-noticias">
+
+        </div>
+    </div>
+
+    <footer>
+        <div id="footer_content">
+            <ul class="footer_list"><li><a href="https://nubank.com.br/pagar/ln1lu/PRdG27LATw" class="footer-link">Doação</a></li></ul>
+            <ul class="footer_list"><li><a href="mailto:danielmonteirodcarvalho@gmail.com" class="footer-link">Contato</a></li></ul>
+            <ul class="footer_list"><li><a href="mailto:danielmonteirodcarvalho@gmail.com" class="footer-link">Anunciante</a></li></ul>
+            <ul class="footer_list"><li><a href="mailto:danielmonteirodcarvalho@gmail.com" class="footer-link">Trabalhe Conosco</a></li></ul>
+        </div>
+        <div id="footer_cop">
+            &#169 
+            2023 YD Technology, all rights reserved.
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
